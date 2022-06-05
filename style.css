@@ -1,0 +1,110 @@
+      * {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: linear-gradient(90deg, #19182b, #040416);
+    overflow: auto;
+  }
+  .main {
+    padding: 15px;
+    margin-top: 7%;
+    text-align:center
+  }
+  .main img {
+    border-radius: 100px;
+  }
+  .main h4 {
+    color: #4747ff;
+    font-size: 22px;
+    margin-top: 1%;
+    font-family: verdana;
+  }
+  .main p {
+    overflow: hidden;
+    color: #c7c7c7;
+    font-size: 17px;
+    font-family: arial;
+    margin: 1%;
+    text-align:center;
+    max-width: 100%;
+  }
+  .link {
+    background: transparent;
+    font-family: arial;
+    color: #c7c7c7;
+    padding: 10px 20px;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.8s;
+    margin-left: 1%;
+    text-decoration: none;
+  }
+  .link:hover{
+    background: #c7c7c7;
+    color: black;
+    transition: 0.8s;
+  }
+  .projects{
+    margin: 2%;
+  }
+  .projects h2{
+    margin: 5%;
+    text-align: center;
+    color: #4747ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+  }
+  .column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+  }
+  .row {margin: 0 -5px;}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background: rgba(209, 209, 209, 0.2);
+    border: 2px solid #c7c7c7;
+    border-radius: 10px;
+  }
+  .card h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2%;
+  }
+  .card p{
+    color: rgb(206, 206, 206);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+  }
+  .card p:hover{
+    color: white;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .socials{
+    margin: auto;
+    text-align: center;
+    margin: 5%;
+  }
+  .socials .social-link{
+    color: white;
+    text-decoration: none;
+    margin: 1%;
+  }
