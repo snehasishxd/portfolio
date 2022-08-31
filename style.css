@@ -17,23 +17,23 @@
      border-radius: 100px;
 }
  .main h4 {
-     color: #4747ff;
+     color: #b5d1ff;
      font-size: 22px;
      margin-top: 1%;
-     font-family: verdana;
+     font-family: -apple-system, BlinkMacSystemFont, sans-serif;;
 }
  .main p {
      overflow: hidden;
-     color: #c7c7c7;
-     font-size: 17px;
-     font-family: arial;
+     color: #e3e3e3;
+     font-size: 18px;
+     font-family: -apple-system, BlinkMacSystemFont, sans-serif;;
      margin: 1%;
      text-align:center;
      max-width: 100%;
 }
  .link {
      background: transparent;
-     font-family: arial;
+     font-family: Arial, Helvetica, sans-serif;
      color: #c7c7c7;
      padding: 10px 20px;
      border: 1px solid #c7c7c7;
@@ -56,7 +56,7 @@
      margin: 5%;
      text-align: center;
      color: #4747ff;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-family: -apple-system, BlinkMacSystemFont, sans-serif;;
      font-size: 25px;
 }
  .column {
@@ -82,7 +82,7 @@
 }
  .card h2{
      color: white;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      margin: 2%;
 }
  .card p{
